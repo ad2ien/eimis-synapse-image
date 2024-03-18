@@ -4,16 +4,15 @@
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/eimis-ans/eimis-synapse-image/publish.yml?label=publish&logo=github&branch=main)
 ![GitHub License](https://img.shields.io/github/license/eimis-ans/eimis-synapse-image)
 
-
 This repo is meant to build and publish a customized version of [Synapse](https://github.com/element-hq/synapse/). A instant messaging server implementing [Matrix](https://matrix.org/) protocol.
 
 The docker image is published to [Docker Hub](https://hub.docker.com/r/eimisans/eimis-synapse). The version will be :
 `v[SYNAPSE_VERSION]-[EIMIS_INCREMENTAL_NUMBER]`
 
-Included modules projects are present in sub directories:
+Files and modules included in the image
 
-- 
--
+- [Synaspe S3 storage provider](https://github.com/matrix-org/synapse-s3-storage-provider)
+- Html templates
 
 ## Try it out locally
 
