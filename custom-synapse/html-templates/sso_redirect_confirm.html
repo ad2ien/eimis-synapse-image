@@ -1,5 +1,5 @@
 {% extends "_base.html" %}
-{% block title %}Continue to your account{% endblock %}
+{% block title %}Continuer vers la messagerie{% endblock %}
 
 {% block header %}
 <style type="text/css">
@@ -27,12 +27,12 @@
 
 {% block body %}
 <header>
-    <h1>Continue to your account</h1>
+    <h1>Continuer vers la messagerie</h1>
 </header>
 <main>
     {% include "sso_partial_profile.html" %}
-    <p class="confirm-trust">Continuing will grant <strong>{{ display_url }}</strong> access to your account.</p>
-    <a href="{{ redirect_url }}" class="primary-button">Continue</a>
+    <p class="confirm-trust">Vous allez être autentifié sur la messagerie EIMIS avec ce compte</p>
+    <a href="{{ redirect_url }}" class="primary-button">Continuer</a>
 </main>
 {% include "sso_footer.html" without context %}
 
