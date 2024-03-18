@@ -1,4 +1,4 @@
-FROM matrixdotorg/synapse:v1.102.0
+FROM matrixdotorg/synapse:v1.98.0
 
 ARG S3_MEDIA_MODULE_VERSION=v1.4.0
 
