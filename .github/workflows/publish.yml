@@ -32,7 +32,7 @@ jobs:
         id: docker_metadata
         uses: docker/metadata-action@v5
         with:
-          images: ${{ vars.DOCKER_HUB_USERNAME }}/eimis-synapse
+          images: ${{ vars.DOCKER_HUB_USERNAME }}/synapse
           tags: |
             type=raw,enable=${{ !endsWith(github.ref, github.event.repository.default_branch) }},value=${{ env.CI_ACTION_REF_NAME_SLUG }}
             type=raw,enable=${{ endsWith(github.ref, github.event.repository.default_branch) }},value=nightly
@@ -78,5 +78,5 @@ jobs:
           username: ${{ vars.DOCKER_HUB_USERNAME }}
           short-description: Docker image for https://github.com/${{ github.repository }}
           password: ${{ secrets.DOCKER_HUB_TOKEN }}
-          repository: ${{ vars.DOCKER_HUB_USERNAME }}/eimis-synapse
+          repository: ${{ vars.DOCKER_HUB_USERNAME }}/synapse
           readme-filepath: README.md

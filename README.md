@@ -6,7 +6,7 @@
 
 This repo is meant to build and publish a customized version of [Synapse](https://github.com/element-hq/synapse/). A instant messaging server implementing [Matrix](https://matrix.org/) protocol.
 
-The docker image is published to [Docker Hub](https://hub.docker.com/r/eimisans/eimis-synapse). The version will be :
+The docker image is published to [Docker Hub](https://hub.docker.com/r/eimisans/synapse). The version will be :
 `v[SYNAPSE_VERSION]-[EIMIS_INCREMENTAL_NUMBER]`
 
 Files and modules included in the image
