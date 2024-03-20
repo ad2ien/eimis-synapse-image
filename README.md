@@ -1,8 +1,9 @@
 # EIMIS Synapse docker image
 
+![Matrix](https://img.shields.io/badge/matrix-000000?logo=Matrix&logoColor=white)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/eimis-ans/eimis-synapse-image/lint.yml?label=lint&logo=github)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/eimis-ans/eimis-synapse-image/publish.yml?label=publish&logo=github&branch=main)
-![GitHub License](https://img.shields.io/github/license/eimis-ans/eimis-synapse-image)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 This repo is meant to build and publish a customized version of [Synapse](https://github.com/element-hq/synapse/). A instant messaging server implementing [Matrix](https://matrix.org/) protocol.
 
