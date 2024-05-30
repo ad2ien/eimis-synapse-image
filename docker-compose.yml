@@ -94,7 +94,7 @@ services:
 
   element:
     container_name: element-local
-    image: vectorim/element-web:v1.11.31
+    image: vectorim/element-web:v1.11.64
     ports:
       - "1983:80"
     volumes:
