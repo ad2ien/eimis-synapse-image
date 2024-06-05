@@ -13,6 +13,8 @@ The docker image is published to [Docker Hub](https://hub.docker.com/r/eimisans/
 Files and modules included in the image
 
 - [Synaspe S3 storage provider](https://github.com/matrix-org/synapse-s3-storage-provider)
+- [EIMIS user whitlist module](https://github.com/eimis-ans/white-list-synapse-module)
+- [ProSanteConnect user mapping](https://github.com/eimis-ans/eimis-prosante-connect-module)
 - Html templates
 
 ## Try it out locally
