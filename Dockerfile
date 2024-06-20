@@ -2,7 +2,7 @@ FROM matrixdotorg/synapse:v1.104.0
 
 ARG S3_MEDIA_MODULE_VERSION=v1.4.0
 ARG WHITELIST_MODULE_VERSION=v1.0.0
-ARG PSC_MAPPING_PROVIDER_VERSION=v1.0.1
+ARG PSC_MAPPING_PROVIDER_VERSION=v1.1.0
 
 COPY ./html-templates/*.html /usr/local/lib/python3.11/site-packages/synapse/res/templates/
 

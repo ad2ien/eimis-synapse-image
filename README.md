@@ -3,7 +3,7 @@
 ![Matrix](https://img.shields.io/badge/matrix-000000?logo=Matrix&logoColor=white)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/eimis-ans/eimis-synapse-image/lint.yml?label=lint&logo=github)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/eimis-ans/eimis-synapse-image/publish.yml?label=publish&logo=github&branch=main)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg?logo=apache)
 
 This repo is meant to build and publish a customized version of [Synapse](https://github.com/element-hq/synapse/). A instant messaging server implementing [Matrix](https://matrix.org/) protocol.
 
