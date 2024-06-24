@@ -19,12 +19,20 @@ Files and modules included in the image
 
 ## Try it out locally
 
-add the following to your `/etc/hosts` file:
+Add the following to your `/etc/hosts` file:
 
 ```text
 127.0.0.1       matrix.local
 127.0.0.1       idp.local
 ```
+
+Some file permission settings:
+
+```bash
+chmod a+w docker-test-config/mx-data
+```
+
+Then:
 
 ```bash
 docker compose up -d
